@@ -1,5 +1,10 @@
 {
     "files.associations": {
         "iostream": "cpp"
+<<<<<<< HEAD
     }
+=======
+    },
+    "ros.distro": "humble"
+>>>>>>> 4e3dfc3 (Module 2 assignment completed)
 }
