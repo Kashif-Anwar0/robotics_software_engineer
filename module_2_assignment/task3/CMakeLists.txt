@@ -16,14 +16,12 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 add_executable(spawn_all src/spawn_all.cpp)
-ament_target_dependencies(task3 rclcpp std_msgs geometry_msgs)
+ament_target_dependencies(spawn_all rclcpp std_msgs geometry_msgs)
+
 
 install(TARGETS
   spawn_all
   DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY
-  launch
-  DESTINATION share/${PROJECT_NAME})
 
 ament_package()

@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/kashifa-dev/assignments_ws/src/robotics_software_engineer-assignments/module_2_assignment/task1&2/include/**",
+        "/home/kashifa-dev/assignments_ws/src/robotics_software_engineer-assignments/module_2_assignment/task3/include/**",
+        "/home/kashifa-dev/assignments_ws/src/robotics_software_engineer-assignments/module_2_assignment/task4/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

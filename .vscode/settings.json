@@ -5,6 +5,22 @@
     }
 =======
     },
+<<<<<<< HEAD
     "ros.distro": "humble"
 >>>>>>> 4e3dfc3 (Module 2 assignment completed)
+=======
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/kashifa-dev/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/kashifa-dev/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kashifa-dev/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/kashifa-dev/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+>>>>>>> fe18ef3 (Module 2 Assignment completed)
 }
